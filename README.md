@@ -28,4 +28,5 @@ This project is designed for learning and practicing web development skills.
 
 ---
 
-This is a training project and does not use live exchange rates. Feel free to modify and improve it!
+This is a training project and use live exchange rates. But don't take them for something necessarily correct!
+Feel free to modify and improve it!
