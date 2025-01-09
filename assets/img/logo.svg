@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140.07 155.11">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Calque_1-2" data-name="Calque 1">
+    <g>
+      <g>
+        <path class="cls-1" d="M3.33,12.49h25.57c19.41,0,30.4,9.24,30.4,25.15,0,17.49-12.66,33.15-46.22,33.15H3.33V12.49ZM39.14,38.72c0-6.33-3.58-10.41-11.08-10.41h-5.16v26.07c10.24-1.17,16.24-7.08,16.24-15.66Z"/>
+        <path class="cls-1" d="M63.04,12.49h19.74v58.3h-19.74V12.49Z"/>
+      </g>
+      <circle class="cls-1" cx="125.05" cy="29.46" r="7.02"/>
+      <rect class="cls-1" x="92.57" y="37.33" width="43.28" height="6.95" transform="translate(59.83 -67.6) rotate(43.7)"/>
+      <circle class="cls-1" cx="104.1" cy="50.53" r="7.02"/>
+      <g>
+        <path class="cls-1" d="M.83,77.41h19.82l6.08,40.89,9.58-40.89h20.65l-18.41,58.3H11.83L.83,77.41Z"/>
+        <path class="cls-1" d="M59.46,77.41h19.74v58.3h-19.74v-58.3Z"/>
+        <path class="cls-1" d="M110.59,117.22l-8.08,18.49h-20.82l14.66-29.4-14.41-28.9h20.82l7.83,17.91,7.58-17.91h20.82l-14.08,28.9,14.32,29.4h-20.82l-7.83-18.49Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
