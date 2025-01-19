@@ -11,6 +11,15 @@
 	--grid-gap: 2.5rem;
 }
 
+@font-face {
+    font-family: 'FunnelSans';
+    src: url('fonts/FunnelSans.woff2') format('woff2'),
+         url('fonts/FunnelSans.woff') format('woff'),
+         url('fonts/FunnelSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .grid{
 	display: flex;
 	flex-flow: wrap;
@@ -49,7 +58,7 @@ html{
 }
 
 body{
-	font-family: 'Anuphan', sans-serif;
+	font-family: 'FunnelSans', sans-serif;
 	font-size: 1.9rem;
 	line-height: 3rem;
 	background-color: #3C3C3B;
@@ -75,6 +84,72 @@ header .container img.logo{
 	width: 30vh;
 }
 
-header .container img.subtitle{
-	width: 50vh;
+header .container .text-subtitle{
+	color: white;
+	font-size: 3rem;
 }
+
+.scale-up-center {
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@keyframes scale-up-center {
+	0% {
+	  transform: scale(0.5);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+  
+
+.button {
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+	background: linear-gradient(45deg, #d35658, #c53033, #921113);
+	padding: 1.5rem 3rem;
+	border-radius: 10px;
+	font-size: 1.25em;
+	cursor: pointer;
+  }
+  
+.button span {
+	position: relative;
+	z-index: 1;
+  }
+  
+.button::before {
+	content: "";
+	position: absolute;
+	inset: 1px;
+	background: #272727;
+	border-radius: 9px;
+	transition: 0.5s;
+  }
+  
+.button:hover::before {
+	opacity: 0.7;
+  }
+  
+.button::after {
+	content: "";
+	position: absolute;
+	inset: 0px;
+	background: linear-gradient(45deg, #d35658, #c53033, #921113);
+	border-radius: 9px;
+	transition: 0.5s;
+	opacity: 0;
+	filter: blur(20rem);
+  }
+  
+.button:hover:after {
+	opacity: 1;
+}
+
+header .container .buttons img.github-link {
+    position: absolute;
+    width: 50px; /* Ajustez la largeur si nécessaire */
+    height: 50px; /* Ajustez la hauteur si nécessaire */
+}
+  
