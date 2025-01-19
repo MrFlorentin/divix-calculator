@@ -13,9 +13,9 @@
 
 @font-face {
     font-family: 'FunnelSans';
-    src: url('fonts/FunnelSans.woff2') format('woff2'),
-         url('fonts/FunnelSans.woff') format('woff'),
-         url('fonts/FunnelSans.ttf') format('truetype');
+    src: url('../fonts/funnelsans.woff2') format('woff2'),
+         url('../fonts/funnelsans.woff') format('woff'),
+         url('../fonts/funnelsans.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -147,9 +147,12 @@ header .container .text-subtitle{
 	opacity: 1;
 }
 
-header .container .buttons img.github-link {
+header .container img.github-link {
     position: absolute;
     width: 50px; /* Ajustez la largeur si nécessaire */
     height: 50px; /* Ajustez la hauteur si nécessaire */
+	margin-left: 3rem;
+	cursor: pointer;
+
 }
   
