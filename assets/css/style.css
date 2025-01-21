@@ -79,7 +79,7 @@ header{
 	min-height: 100vh;
 }
 
-header .container img.logo{
+img.logo{
 	height: 30vh;
 	width: 30vh;
 }
@@ -149,10 +149,46 @@ header .container .text-subtitle{
 
 header .container img.github-link {
     position: absolute;
-    width: 50px; /* Ajustez la largeur si nécessaire */
-    height: 50px; /* Ajustez la hauteur si nécessaire */
+    width: 50px;
+    height: 50px;
 	margin-left: 3rem;
 	cursor: pointer;
 
 }
-  
+
+/* body.calculator .buttons .select-currency-btn span{
+	font-size: 2rem;
+	color: white;
+	padding: 1rem 2rem;
+	background-color: #d35658;
+	border-radius: 2rem;
+	cursor: pointer;
+} */
+
+
+
+.select-currency-btn select {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    appearance: none; /* Supprime l'apparence par défaut du navigateur */
+    -webkit-appearance: none; /* Supprime l'apparence par défaut du navigateur pour WebKit */
+    -moz-appearance: none; /* Supprime l'apparence par défaut du navigateur pour Mozilla */
+}
+
+.select-currency-btn select:focus {
+    outline: none;
+    border-color: #d35658;
+}
+
+.calculator header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+}
