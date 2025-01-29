@@ -12,29 +12,35 @@
 </head>
 
 <body class="calculator">
-    <header>
-        <img class="logo scale-up-center" src="assets/img/logo.svg" alt="">
-    </header>
-    <br><br><br>
+    <a href="index.html"><img class="logo scale-up-center" src="assets/img/logo.svg" alt=""></a>
     <div class="buttons">
         <div class="select-currency-btn">
-            <span>
+            <!-- <span>
                 Select main currency
-            </span>
+            </span> -->
+            <br>
             <select name="currencies" id="currency-select"></select>
-        </div>
-        <div class="select-currency-btn converted-currency">
-            <span>
-                Select converted currency
-            </span>
+            <img id="exchange-icon" src="assets/img/exchange-icon.svg" alt="Exchange Icon">
             <select name="currencies" id="converted-currency-select"></select>
         </div>
+        <!-- <div class="select-currency-btn converted-currency">
+            <span>
+                Select converted currency
+            </span
+            <br>
+            <select name="currencies" id="converted-currency-select"></select>
+        </div> -->
     </div>
     <div class="conversion">
         <input type="number" id="amount" placeholder="Enter amount">
         <button id="convert-button">Convert</button>
         <p id="result"></p>
     </div>
+
+    <br>
+
+    <a href="https://github.com/MrFlorentin/divix-calculator" target="_blank"> <img src="https://img.icons8.com/?size=100&id=62856&format=png&color=FFFFFF" alt="" class="github-link"></a>
+    <span style="font-size: 1.5rem; line-height: 0.9rem;">Discover the code, just here!</span>
     <script src="assets/js/script.js" defer></script>
 </body>
 

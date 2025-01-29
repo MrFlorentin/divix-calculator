@@ -156,39 +156,87 @@ header .container img.github-link {
 
 }
 
-/* body.calculator .buttons .select-currency-btn span{
-	font-size: 2rem;
+/* Calculator */
+.calculator{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 	color: white;
-	padding: 1rem 2rem;
-	background-color: #d35658;
-	border-radius: 2rem;
-	cursor: pointer;
+}
+
+#exchange-icon {
+	text-align: center;
+    height: 3rem;
+	filter: invert(100%);
+}
+
+/* .buttons, .conversion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
 } */
 
+.select-currency-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0;
+    text-align: center;
+	gap: 2rem;
+}
 
-
-.select-currency-btn select {
-    width: 200px;
-    padding: 10px;
-    font-size: 16px;
+select {
+    padding: 0.5rem;
+    font-size: 1.8rem;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #fff;
+    width: 200px;
+    margin-top: 0.5rem;
+}
+
+input[type="number"] {
+    padding: 0.5rem;
+    font-size: 1.8rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: 0.5rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #d35658;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    appearance: none; /* Supprime l'apparence par défaut du navigateur */
-    -webkit-appearance: none; /* Supprime l'apparence par défaut du navigateur pour WebKit */
-    -moz-appearance: none; /* Supprime l'apparence par défaut du navigateur pour Mozilla */
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
 }
 
-.select-currency-btn select:focus {
-    outline: none;
-    border-color: #d35658;
+button:hover {
+    background-color: #921113;
 }
 
-.calculator header{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	min-height: 100vh;
+#result {
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.calculator a img.github-link {
+    width: 50px;
+    height: 50px;
+	cursor: pointer;
+
+}
+
+strong{
+	font-weight: 800;
+	color: #d35658;
 }
