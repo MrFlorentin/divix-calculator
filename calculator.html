@@ -21,10 +21,19 @@
             <span>
                 Select main currency
             </span>
-            <select name="currencies" id="currency-select">
-                
-            </select>
+            <select name="currencies" id="currency-select"></select>
         </div>
+        <div class="select-currency-btn converted-currency">
+            <span>
+                Select converted currency
+            </span>
+            <select name="currencies" id="converted-currency-select"></select>
+        </div>
+    </div>
+    <div class="conversion">
+        <input type="number" id="amount" placeholder="Enter amount">
+        <button id="convert-button">Convert</button>
+        <p id="result"></p>
     </div>
     <script src="assets/js/script.js" defer></script>
 </body>
