@@ -4,18 +4,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const amountInput = document.getElementById('amount');
     const convertButton = document.getElementById('convert-button');
     const resultDisplay = document.getElementById('result');
+    const lastUpdateTime = document.getElementById('last-update-time');
     let exchangeRates = {};
 
     // Fetch exchange rates and populate the currency selects
     fetch('assets/js/rates.json')
         .then(response => {
             if (!response.ok) {
-                throw new Error('Netwofrk response was not ok ' + response.statusText);
+                throw new Error('Network response was not ok ' + response.statusText);
             }
             return response.json();
         })
         .then(data => {
             exchangeRates = data.exchange_rates;
+            const lastUpdated = new Date(data.last_updated);
+            lastUpdateTime.textContent = lastUpdated.toLocaleString();
             console.log('Currencies loaded:', exchangeRates);
             fillCurrencySelects(exchangeRates, currencySelect, convertedCurrencySelect);
         })
