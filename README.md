@@ -28,5 +28,5 @@ This project is designed for learning and practicing web development skills.
 
 ---
 
-This is a training project and use live exchange rates. But don't take them for something necessarily correct!
+This is a training project and use exchange rates through JSON files. Don't take them for something necessarily correct!
 Feel free to modify and improve it.
