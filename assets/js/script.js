@@ -88,10 +88,11 @@ function convertCurrency(amountInput, currencySelect, convertedCurrencySelect, r
     const toCountry = exchangeRates[toCurrency].country;
     const toFlag = exchangeRates[toCurrency].flag;
 
-    const convertedAmount = (amount / fromRate) * toRate;
+    const amountInUSD = amount / fromRate; // Because my JSON file has rates in USD, we need to convert it before
+    const convertedAmount = amountInUSD * toRate;
 
     const formattedAmount = amount.toLocaleString();
     const formattedConvertedAmount = convertedAmount.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 
-    resultDisplay.innerHTML = `If you travel from <strong>${fromCountry}</strong> ${fromFlag} to <strong>${toCountry}</strong> ${toFlag},<br><strong>${formattedAmount} ${fromCurrency}</strong> will be converted to <strong>${formattedConvertedAmount} ${toCurrency}</strong>.`;
+    resultDisplay.innerHTML = `✈️ If you travel from <strong>${fromCountry}</strong> ${fromFlag} to <strong>${toCountry}</strong> ${toFlag},<br><strong>${formattedAmount} ${fromCurrency}</strong> will be converted to <strong>${formattedConvertedAmount} ${toCurrency}</strong>.`;
 }

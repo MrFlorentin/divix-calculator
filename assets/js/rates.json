@@ -39,6 +39,18 @@
     "CZK": {"rate": 22.50, "name": "Czech Koruna", "country": "Czech Republic", "flag": "🇨🇿"},
     "HUF": {"rate": 325.30, "name": "Hungarian Forint", "country": "Hungary", "flag": "🇭🇺"},
     "ILS": {"rate": 3.65, "name": "Israeli New Shekel", "country": "Israel", "flag": "🇮🇱"},
-    "TWD": {"rate": 31.80, "name": "New Taiwan Dollar", "country": "Taiwan", "flag": "🇹🇼"}
+    "TWD": {"rate": 31.80, "name": "New Taiwan Dollar", "country": "Taiwan", "flag": "🇹🇼"},
+    "UAH": {"rate": 36.75, "name": "Ukrainian Hryvnia", "country": "Ukraine", "flag": "🇺🇦"},
+    "KZT": {"rate": 460.30, "name": "Kazakhstani Tenge", "country": "Kazakhstan", "flag": "🇰🇿"},
+    "IQD": {"rate": 1305, "name": "Iraqi Dinar", "country": "Iraq", "flag": "🇮🇶"},
+    "JOD": {"rate": 0.71, "name": "Jordanian Dinar", "country": "Jordan", "flag": "🇯🇴"},
+    "LKR": {"rate": 325.60, "name": "Sri Lankan Rupee", "country": "Sri Lanka", "flag": "🇱🇰"},
+    "PKR": {"rate": 278.90, "name": "Pakistani Rupee", "country": "Pakistan", "flag": "🇵🇰"},
+    "BDT": {"rate": 109.80, "name": "Bangladeshi Taka", "country": "Bangladesh", "flag": "🇧🇩"},
+    "MAD": {"rate": 10.25, "name": "Moroccan Dirham", "country": "Morocco", "flag": "🇲🇦"},
+    "DZD": {"rate": 134.60, "name": "Algerian Dinar", "country": "Algeria", "flag": "🇩🇿"},
+    "TND": {"rate": 3.12, "name": "Tunisian Dinar", "country": "Tunisia", "flag": "🇹🇳"},
+    "OMR": {"rate": 0.39, "name": "Omani Rial", "country": "Oman", "flag": "🇴🇲"},
+    "KWD": {"rate": 0.31, "name": "Kuwaiti Dinar", "country": "Kuwait", "flag": "🇰🇼"}
   }
 }
