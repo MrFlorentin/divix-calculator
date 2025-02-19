@@ -35,19 +35,6 @@
 	height: auto;
 }
 
-.col-1{grid-column: span 1;}
-.col-2{grid-column: span 2;}
-.col-3{grid-column: span 3;}
-.col-4{grid-column: span 4;}
-.col-5{grid-column: span 5;}
-.col-6{grid-column: span 6;}
-.col-7{grid-column: span 7;}
-.col-8{grid-column: span 8;}
-.col-9{grid-column: span 9;}
-.col-10{grid-column: span 10;}
-.col-11{grid-column: span 11;}
-.col-12{grid-column: span 12;}
-
 .container{
 	width: 1300px;
 	margin-inline: auto;
@@ -152,6 +139,7 @@ header .container img.github-link {
     width: 50px;
     height: 50px;
 	margin-left: 3rem;
+	margin-top: 0.8rem;
 	cursor: pointer;
 
 }
@@ -242,4 +230,33 @@ strong{
 .copyright{
 	color: white;
 	text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .container{
+	width: 950px;
+  }
+  button {
+    padding: 0.5rem 0.8rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+select {
+    font-size: 1.3rem;
+    width: 150px;
+}
+
+input[type="number"] {
+    font-size: 1.3rem;
+    width: 150px;
+}
+#exchange-icon {
+    height: 2rem;
+}
+}
+
+@media screen and (max-width: 768px) {
+  .container{
+	width: 550px;
+  }
 }
